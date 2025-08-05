@@ -1,16 +1,12 @@
 {
   "name": "portfolio-tailwind",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Portfolio website",
+  "main": "index.html",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.3.2"
-  }
+  "license": "ISC"
 }
