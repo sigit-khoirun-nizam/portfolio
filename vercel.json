@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx tailwindcss@latest -i ./src/input.css -o ./dist/output.css --minify",
+  "outputDirectory": "dist",
+  "installCommand": "npm install"
+}
